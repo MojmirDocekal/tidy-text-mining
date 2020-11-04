@@ -11,6 +11,14 @@ library(ggplot2)
 theme_set(theme_light())
 ```
 
+<!--
+
+extract just the R code:
+
+knitr::purl("01-tidy-text.Rmd")
+
+-->
+
 
 Using tidy data principles is a powerful way to make handling data easier and more effective, and this is no less true when it comes to dealing with text. As described by Hadley Wickham [@tidydata], tidy data has a specific structure:
 
